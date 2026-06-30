@@ -1,0 +1,51 @@
+[
+  {
+    "condition": "Baseline: B=0, no costs, flat g, no Kirkwood",
+    "Q1_gain_pct": 0.0,
+    "Q1_Tstar": 50,
+    "Q2_PRLS": 5.4,
+    "Q2_l70": 0.25
+  },
+  {
+    "condition": "+ grandmothering B=1, constant efficacy, no costs",
+    "Q1_gain_pct": 0.68,
+    "Q1_Tstar": 39,
+    "Q2_PRLS": 13.7,
+    "Q2_l70": 0.46
+  },
+  {
+    "condition": "+ declining grandmother efficacy",
+    "Q1_gain_pct": 0.72,
+    "Q1_Tstar": 39,
+    "Q2_PRLS": 13.3,
+    "Q2_l70": 0.44
+  },
+  {
+    "condition": "+ late-reproduction costs (q(a) + p_mat(a))",
+    "Q1_gain_pct": 0.84,
+    "Q1_Tstar": 38,
+    "Q2_PRLS": 12.2,
+    "Q2_l70": 0.43
+  },
+  {
+    "condition": "+ age-graded productivity g(a)  [Kaplan et al. 2000]",
+    "Q1_gain_pct": 1.0,
+    "Q1_Tstar": 40,
+    "Q2_PRLS": 9.0,
+    "Q2_l70": 0.32
+  },
+  {
+    "condition": "+ Kirkwood effort-dependent damage \u03b4(u)  [DST]",
+    "Q1_gain_pct": 1.06,
+    "Q1_Tstar": 40,
+    "Q2_PRLS": 8.2,
+    "Q2_l70": 0.3
+  },
+  {
+    "condition": "+ second grandmother (B_pgm=1, p_u=0.05)",
+    "Q1_gain_pct": 2.23,
+    "Q1_Tstar": 37,
+    "Q2_PRLS": 13.0,
+    "Q2_l70": 0.43
+  }
+]
